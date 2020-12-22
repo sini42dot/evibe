@@ -11,8 +11,8 @@ html {
 }
 
 body {
-  font-family: 'Lora', 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 1.125rem;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 1 rem;
   color: #404040;
   position: relative;
   background-color: {{ site.page-col | default: "#FFFFFF" }};
@@ -208,6 +208,7 @@ img {
 
 .navbar-toggler {
   font-size: 1rem;
+  background: rgba(255,255,255);  
   margin: 0.5rem 0;
 }
 .navbar-custom .navbar-toggler:focus,
